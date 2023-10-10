@@ -62,7 +62,7 @@ async function printGithubUserProfile(username) {
         document.body.appendChild(h1);
 
 
-        return { img, name };
+        return { img: img.src, name };
     } catch (error) {
         console.error('Error:', error);
     }
